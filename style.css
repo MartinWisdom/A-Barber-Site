@@ -314,11 +314,11 @@ footer a{
 
     .thebarber {
         width: 100%;
-        height: 55vh;
+        height: 65vh;
     }
 
     .thebarber h3 {
-        font-size: 60px;
+        font-size:65px;
         width: 100%;
     }
 
@@ -407,7 +407,7 @@ footer a{
     }
 
     footer {
-    height: 60vh;
+    height: 100vh;
 
     }
 
@@ -469,8 +469,10 @@ footer button{
     
 }
 
+}
+
+@media screen and (min-width:768px)and(max-width:1024px){
+
+}
     
-
-
-
 }
