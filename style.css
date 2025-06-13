@@ -218,7 +218,6 @@ button {
 
 footer {
     background-color: #653520;
-    height: 27vh;
 }
 
 .mart b{
@@ -407,10 +406,7 @@ footer a{
         width: 100%;
     }
 
-    footer {
-    height: 90uvh;
 
-    }
 
 .mart b{
     
@@ -539,11 +535,26 @@ button {
 
 }
 
+ .testimony img{
+    height: 40vh;
+ }
 
-footer{
-    width: 100%;
+ .testy1{
+    width: 50%;
+ }
+ .testy2{
+    width: 50%;
+ }
 
+
+
+
+footer form{
+    margin-left: 10px;
 }
+    
+}
+
 
 
 }
