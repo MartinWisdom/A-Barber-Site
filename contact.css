@@ -342,3 +342,10 @@ footer button{
         width: 60%;
     }
 } 
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+    .formbox{
+        width: 60%;
+       
+    }
+}
