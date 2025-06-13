@@ -96,16 +96,92 @@ form{
 }
 
 
-/* BOOKONLINE */
+
+
+.bookonline{
+    background-color: black;
+}
 .service h1{
     text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.servicecon1{
+    display: flex;
+    width: 100%;
+}
+
+.servicecon2{
+    display: flex;
+    width: 100%;
+    background-color: black;
+     margin-top: 5%;
+}
+
+.image{
+    padding: px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+ .image img{
+    width: 100%;
+    height: 50vh;
+    
+}
+
+.image2{
+    height: 50vh;
+    padding: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.image2 img{
+width: 100%;
+height: 50vh;
+
+}
+
+.write{
+background-color: white;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.text p{
+    text-align: center;
+    font-size: 20px;
+}
+.text{
+    padding: 40px;
+}
+
+.pic{
+    width: 50%;
+    padding:  ;
+}
+
+.pic2{
+    width: 50%;
 }
 
 
-
-.write p{
-text-align: center;
+    
+button{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
 }
+
+
 
 
 

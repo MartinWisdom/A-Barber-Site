@@ -1,39 +1,40 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(/Picture/barbback.jpg);
     background-size: cover;
 }
 
-header{
+header {
     display: block;
     align-items: center;
     width: 100%;
+    background-color: #653520;
 
 }
 
-.logo img{
+.logo img {
     width: 4%;
 }
 
-nav a{
-text-decoration: none;
-padding: 10px;
-color: aliceblue;
-text-align: center;
-margin-right: 100px;
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    margin-right: 100px;
 }
 
-nav{
+nav {
     margin-left: 60px;
 }
 
-nav b{
-    color: rgb(101, 59, 4);
+nav b {
+    color: #FFA62F;
     text-align: center;
     margin-right: 100px;
     padding: 15px;
@@ -41,156 +42,165 @@ nav b{
 }
 
 
-nav a:hover{
-background-color: black;
+nav a:hover {
+    background-color: black;
 }
 
-.containerA{
+.containerA {
     display: flex;
     justify-content: space-
-    
 }
 
-.thebarber h3{
-     width: 100%;
+.thebarber h3 {
+    width: 100%;
     font-size: 100px;
     color: aliceblue;
-    
+
 }
-.thebarber{
+
+.thebarber {
     background-color: rgb(31, 30, 30);
     width: 50%;
 }
 
 
-button{
+button {
     background-color: black;
     color: aliceblue;
     width: 20%;
     margin-left: 30px;
     padding: 5px;
     margin-bottom: 12px;
- }
+}
 
 
 
-.photocon{
+.photocon {
     background-color: black;
     width: 50%;
-    
+
 
 
 
 }
-.thephoto img{
+
+.thephoto img {
     width: 100%;
     height: 100vh;
-    
+
 }
-.photowrite p{
+
+.photowrite p {
     color: aliceblue;
 }
 
-.stylewrite{
+.stylewrite {
     width: 100%;
     overflow: hidden;
-    background-color: grey;
+    background-color: black;
     padding: 10px;
 }
 
-.stylewritecon{
+.stylewritecon {
     display: inline-block;
     white-space: nowrap;
     animation: movetext 15s linear infinite;
 }
 
- @keyframes movetext {
-0% { transform: translateX(100%);
-}
-100%{
-    transform: translateX(-100%);
-}
-} 
+@keyframes movetext {
+    0% {
+        transform: translateX(100%);
+    }
 
-.stylewrite h2{
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.stylewrite h2 {
     text-align: center;
     font-size: 70px;
     width: 100%;
+    color: peru;
 
 }
 
-#aboutsec{
-    background-color:
+#aboutsec {
+    /* background-color: */
 }
 
-.about1{
+.about1 {
     display: flex;
     padding: 15px;
     width: 45%;
 }
 
-.about1 p{
+.about1 p {
     color: aliceblue;
 }
-.about1 b{
+
+.about1 b {
     margin: 20px;
     font-size: 30px;
     color: aliceblue;
-    
+
 }
 
-.about2{
+.about2 {
     display: flex;
     padding: 15px;
     width: 100%;
 }
 
-.about2 p{
-    
+.about2 p {
+
     color: aliceblue;
     margin: 50px;
 }
 
-.about2 .craft{
+.about2 .craft {
     margin-left: 70px;
 }
 
-.chair{
+.chair {
     display: flex;
     width: 100%;
-    
+
 }
 
-.chair img{
+.chair img {
     width: 100%;
     height: 100vh;
 }
 
 
-.testimony{
+.testimony {
     display: flex;
-    
-    
+
+
 }
-#testysec .b{
+
+#testysec .b {
     text-align: center;
     font-size: 30px;
     color: peru;
-    
+
 }
 
-.testimony img{
+.testimony img {
     width: 80%;
-   height: 60vh;
-   border-top-left-radius: 100px;
-   border-top-right-radius: 100px;
+    height: 60vh;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
 
-#testysec .testimony, .testy3, p{
+#testysec .testimony,
+.testy3,
+p {
     margin: 20px;
 }
 
-.testimony p{
+.testimony p {
     width: 80%;
     color: peru;
 }
@@ -198,160 +208,165 @@ button{
 
 
 
-.testy3 img{
-    width:40%;
-     border-top-left-radius: 100px;
-   border-top-right-radius: 100px;
+.testy3 img {
+    width: 40%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
 
-.testy3{
+.testy3 {
     width: 100%;
 }
 
-.testy3 p{
+.testy3 p {
     width: 50%;
     color: peru;
 }
 
-#testysec .testy3{
-    
+#testysec .testy3 {
+
     margin-left: 27%;
 }
 
-footer{
-    background-color: dimgray;
+footer {
+    background-color: #653520;
     height: 35vh;
 }
 
-.footerbox{
+.footerbox {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     width: 100%;
-    }
+}
 
-.footerbox h5{
+.footerbox h5 {
     margin: 20px;
 }
 
-.footerbox button{
+.footerbox button {
     width: 100px;
 }
-.foot1{
+
+.foot1 {
     display: flex;
-    width: 50%;    
+    width: 50%;
 }
 
-.foot1 .mart{
+.foot1 .mart {
     margin-left: 50px;
 }
 
 
-.foot2{
+.foot2 {
     display: flex;
     width: 50%;
 }
-.foot2 .mart{
+
+.foot2 .mart {
     margin-right: 50px;
 }
-.foot2 #emailbox{
+
+.foot2 #emailbox {
     width: 120%;
     height: 4vh;
 }
-.footer3{
-    
-    
-}
+
+.footer3 {}
 
 @media screen and (max-width:768px) {
-   
-    header{
+
+    header {
         display: block;
-        background-color: ;
+        /* background-color: ; */
         width: 100%;
-        
-        
-        
-    }
-    
 
-    nav a{
+
+
+    }
+
+
+    nav a {
         padding: 10px;
-        display:block;
+        display: block;
         width: 100%;
-        
-         
+
+
     }
 
 
- .containerA{
-    display: block;
- }  
- .thebarber{
-    width: 100%;
- }
+    .containerA {
+        display: block;
+    }
 
- .thebarber h1{
-    font-size: 60px;
- }
+    .thebarber {
+        width: 100%;
+    }
 
- button{
-    width: 50%;
+    .thebarber h1 {
+        font-size: 60px;
+    }
 
- }
- button :hover {
-    background-color: white;
+    button {
+        width: 50%;
 
- }
+    }
 
- .photocon{
-    width: 100%;
-    
- }
- .photocon img{
-    height: 60vh;
- }
+    button :hover {
+        background-color: white;
 
- .stylewrite h2{
-    font-size: 15px;
- }
+    }
 
- .about1{
-    width: 100%;
-    display: block;
-    
- }
+    .photocon {
+        width: 100%;
 
- .about2{
-    display: block;
-    
- }
+    }
 
- .about2 p{
-    margin: 0;
-    padding: 10px;
- }
+    .photocon img {
+        height: 60vh;
+    }
 
- .about2 .craft{
-    margin: 0;
-    
- }
+    .stylewrite h2 {
+        font-size: 15px;
+    }
 
+    .about1 {
+        width: 100%;
+        display: block;
 
- .chair{
-    display: block;
-    
+    }
 
- }
- .chair img{
-    height: 40vh;
- }
+    .about2 {
+        display: block;
+
+    }
+
+    .about2 p {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .about2 .craft {
+        margin: 0;
+
+    }
 
 
- .testimony{
-    display: block;
-}
+    .chair {
+        display: block;
 
-.testimony img{
-    width: 100%;
-}
+
+    }
+
+    .chair img {
+        height: 40vh;
+    }
+
+
+    .testimony {
+        display: block;
+    }
+
+    .testimony img {
+        width: 100%;
+    }
 }
