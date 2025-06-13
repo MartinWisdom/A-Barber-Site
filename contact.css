@@ -9,52 +9,68 @@ body{
 }
 
 
-header{
+header {
+    display: block;
+    align-items: center;
     width: 100%;
     background-color: #653520;
+
 }
-header a{
-    padding: 2px;
+
+.logo img {
+    width: 4.5%;
+    
+}
+
+nav a {
     text-decoration: none;
     color: aliceblue;
-    background-color: black;
-
+    text-align: center;
+    font-size: 14px;
 }
 
-nav b{
+nav {
+    padding: 5px;
+}
+
+nav b {
     color: #FFA62F;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+
+
+}
+
+
+nav a:hover {
+    background-color: black;
     padding: 10px;
-    margin-bottom: 10px;
 }
-
-.mart{
-    margin-left: 40px;
-}
-
-
-
 
 
 
 .contain .bcon{
      text-align: center;
-     color: peru;
+     color: white;
      font-size: 25px;
+     padding: 15px;
 }
 
 .contain .pcon{
     text-align: center;
-    color: peru;
+    color: white;
 }
 
 
 .formbox{
-    margin-left: 28%;
+    margin-left: 25%;
     width: 50%;
-    border: solid peru;
+    border: solid #FFA62F;
     padding: 20px;
     border-radius: 20px;
     height: 80vh;
+    background-color: whitesmoke;
 
 }
 form{
@@ -62,18 +78,19 @@ form{
 }
 
 .formbox b{
-    color: peru;
+    color: black;
+    
     
 }
 
 
 .formbox .name{
-    width: 70%;
+    width: 80%;
     height: 5vh;
 }
 
 #msgbox{
-    
+    width: 70%;
     height: 15vh;
 }
 
@@ -141,15 +158,18 @@ width: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: whitesmoke;
 
 
 }
 .text p{
     text-align: center;
     font-size: 20px;
+    color: whitesmoke;
 }
 .text{
     padding: 40px;
+    background-color: #653520;
 }
 
 .pic{
@@ -163,18 +183,15 @@ align-items: center;
 
 
     
-button{
+.text button{
     margin-left: 50px;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-
-
-
-
-
+    padding: 8px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 2px;
     
+
+}
 
 
 
@@ -215,6 +232,7 @@ footer {
 .foot2 .mart {
     margin-right: 50px;
     color: aliceblue;
+    padding: 4px;
 }
 .mart{
     margin-right: 100px;
@@ -222,7 +240,7 @@ footer {
 }
 
 .mart p{
-    padding: 3px;
+    padding: 5px;
     color: aliceblue;
 }
 
@@ -232,7 +250,7 @@ footer {
 }
 
 .foot2 #emailbox {
-    width: 120%;
+    width: 100%;
     height: 4vh;
 }
 .footer3 p{
@@ -241,18 +259,86 @@ footer {
 }
 
 footer button{
-    width: 100px;
+    width: 80px;
     background-color: black;
     
 }
-footer a{
-    text-decoration: none;
-    color: white;
-    
-}
+
+
 
 @media screen and (max-width:768px){
+            
+    nav b {
+    
+    margin-right: 10px;
+    margin-left: 20px;
+    }
+
+    .servicecon1{
+        display: block;
+        width: 
+    }
+
+    .servicecon2{
+        display: block;
+    }
+
+    .pic{
+        width: 100%;
+    }
+
+    .pic2{
+        width: 100%;
+    }
+
+    .image img{
+        width: 80%;
+    }
+    .write{
+        width: 100%;
+        padding: 5px;
+    }
+    
     .contain {
         width: 100%;
+    }
+
+    footer {
+    height: 70vh;
+
+    }
+
+    .formbox{
+        width: 100%;
+        margin: 0;
+        border-radius: 0px;
+        padding: ;
+    }
+
+    .footerbox{
+        display: block;
+        padding: 5px;
+        
+    }
+
+    .foot1{
+        display: block;
+    }
+
+    .foot2{
+        display: block;
+        width: 100%;
+    }
+    .stay{
+        margin: 0px;
+
+    }
+
+    .stay b{
+        margin: 9px;
+        padding: 1px;
+    }
+    .foot2 #emailbox{
+        width: 60%;
     }
 } 
